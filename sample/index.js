@@ -7,7 +7,7 @@ const cracker = require('./Routes/Crackers')
 const User = require('./Routes/Users')
 const customer = require('./Routes/CustomerOrder')
 // port creation
-const PORT =process.env.PORT || 7000
+const PORT = 7000
 
 // saving in app
 const app = express()

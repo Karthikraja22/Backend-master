@@ -20,8 +20,9 @@ const CustomerOrderSchema = mongoose.Schema({
         itemQuantity: { type: String }
     }]
 
-
-
+},
+{
+    timestamps:true,
 })
 
 const Customer = mongoose.model('Customer', CustomerOrderSchema)
